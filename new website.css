@@ -1,9 +1,10 @@
 *{
     margin: 0;
+    font-family: 'Work Sans';
 }
 header{
     display: flex;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -169,7 +170,9 @@ header{
 .subscribe-box {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
+    margin-left: 60%;
+    
 }
 
 .subscribe-box .subscribe-title {
@@ -195,6 +198,8 @@ header{
     border-radius: 5px;
     width: 172px;
     background: #ffffff;
+    margin-right: auto;
+    
 }
 
 .subscribe-box .subscribe-btn a {
