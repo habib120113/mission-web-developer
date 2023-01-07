@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Work Sans';
 }
+/* header-section */
 header{
     display: flex;
     background-image: url(./images/banner/banner3.png);
@@ -90,6 +91,38 @@ header{
 .plan-failuar .plan-failuar-container .list-item .fa-solid {
     color: #16D887;
 }
+/* mentor-section */
+.mentor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.mentor .mentor-img {
+    width: 70%;
+}
+
+.mentor .mentor-details {
+    width: 100%;
+}
+
+
+.mentor.mentor-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #474747;
+}
+
+.mentor .mentor-sub-title {
+    color: #474747;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+
 
 /* new-plan-section */
 .new-plan-section-title{
@@ -166,7 +199,7 @@ header{
     display: flex;
     gap: 20px;
 }
-
+/* subcribe-section */
 .subscribe-box {
     display: flex;
     flex-direction: column;
